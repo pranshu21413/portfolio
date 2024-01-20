@@ -1,0 +1,122 @@
+<style>body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #343a40;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.interests,
+.skills,
+.projects,
+.contacts {
+    margin-top: 20px;
+}
+
+.interests i,
+.skills i,
+.projects i,
+.contacts i {
+    margin-right: 5px;
+}
+
+.projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #343a40;
+    color: white;
+}
+
+
+/* ... (previous CSS content remains unchanged) ... */
+
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.typing-animation {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #007BFF;
+    animation: typing 3s steps(20) infinite, blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #007BFF;
+    }
+}
+
+</style>
