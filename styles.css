@@ -1,4 +1,4 @@
-<style>body {
+body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -70,12 +70,15 @@ footer {
 }
 
 
-/* ... (previous CSS content remains unchanged) ... */
+/* Dark Mode */
 
 body.dark-mode {
     background-color: #222;
     color: #fff;
 }
+
+
+/* Button Styles */
 
 button {
     padding: 10px;
@@ -90,6 +93,9 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
+/* Typing Animation Styles */
 
 .typing-animation {
     font-size: 1.5em;
@@ -118,5 +124,3 @@ button:hover {
         border-color: #007BFF;
     }
 }
-
-</style>
